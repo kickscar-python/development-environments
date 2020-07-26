@@ -25,7 +25,7 @@
 # yum install -y libffi-devel
 ```
 
- 	`libressl`은 소스 컴파일 방식으로 설치하고 공유 라이브러리 캐시를 설정하여야 한다.
+​	`libressl` 은 소스 컴파일 방식으로 설치하고 공유 라이브러리 캐시를 설정하여야 한다.
 
 ```bash
 # wget https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-2.9.2.tar.gz
