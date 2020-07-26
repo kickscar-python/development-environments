@@ -2,7 +2,38 @@
 
 ### 1. Mac 설치
 
-​	주로 개발 환경이 될 것이다.
+​	주로 개발 환경이 될 것이다. Python3와 Virtual Environments 구성으로 파이썬 개발환경을 구성하는 것이 베스트이다. 맥에는 Python2.7이 이미 설치되어 있지만 공식 파이썬과 완전 다르며 맥 전용 라이브러리도 포함되어 있다. 공식 Python2.7과 호환에 문제가 있다.
+
+​	따라서 Python2.7 또는 Pythom 3.x 설치해 개발할 때에는 정식 배포판 설치를 추천한다. 홈브류를 사용해 설치하면 비교적 쉽게 설치할 수 있다.
+
+#### 1.1 파이썬 설치
+
+1. 3.x 설치
+
+```bash
+# brew install python3
+# python3 --version
+Python 3.8.5
+```
+
+​	기본 설치 위치는 /usr/local/Cellar/python3 이다.
+
+2. 2.x 설치
+
+```bash
+# brew install python
+```
+
+​	기본 설치 위치는 /usr/local/Cellar/python 이다.
+
+#### 1.2 pip3(Python3) 업그레이드
+
+​	python3과 함께 설치되는 파이썬 패키지 설치 및 관리 도구인 pip 업그레이드 한다.
+
+```bash
+# pip3 install --upgrade pip
+Requirement already up-to-date: pip in /usr/local/lib/python3.8/site-packages (20.1.1)
+```
 
 
 
